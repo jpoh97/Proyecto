@@ -47,7 +47,7 @@ public class puntaje extends AppCompatActivity {
         if(mode.trim().equals("alone")) {
             intent = new Intent(this, Game.class);
         } else {
-            intent = new Intent(this, Servidor.class);
+            intent = new Intent(this, Invitacion.class);
         }
         Bundle datos = this.getIntent().getExtras();
         items=new String[5];

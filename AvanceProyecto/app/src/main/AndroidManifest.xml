@@ -89,6 +89,7 @@
             android:label="SERVIDOR"
             android:parentActivityName=".puntaje"
             android:screenOrientation="landscape" />
+
         <activity android:name=".Invitacion"></activity>
 
         <receiver

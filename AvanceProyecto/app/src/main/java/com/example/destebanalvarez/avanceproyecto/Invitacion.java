@@ -57,7 +57,7 @@ public class Invitacion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_invitacion);
 
         mRegistrationProgressBar = (ProgressBar) findViewById(R.id.registrationProgressBar);
         mRegistrationBroadcastReceiver = new BroadcastReceiver() {
@@ -191,7 +191,6 @@ public class Invitacion extends AppCompatActivity {
             }
         };
         queue.add(postRequest);
-
 
         String url2 = Util.SERVER_URL_PUSH;
         StringRequest postRequest2 = new StringRequest(Request.Method.POST, url2,
